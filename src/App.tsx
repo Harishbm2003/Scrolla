@@ -11,7 +11,7 @@ const App = () => {
       <Navbar searchTerm={searchTerm} onSearch={setSearchTerm} />
       <Routes>
         <Route path="/" element={<Home searchTerm={searchTerm} />} />
-        {/* Removed /book/:id route since Home shows PDF viewer inline */}
+        {/* <Route path="/scrolla" element={<Home searchTerm={searchTerm} />} /> */}
       </Routes>
     </Router>
   );
