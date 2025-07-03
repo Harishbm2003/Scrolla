@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/scrolla/static/css/main.9ce91989.css",
-    "main.js": "/scrolla/static/js/main.ed4d7a86.js",
-    "static/js/453.a78f16ef.chunk.js": "/scrolla/static/js/453.a78f16ef.chunk.js",
-    "static/media/bgscrolla.png": "/scrolla/static/media/bgscrolla.7f01812d672893427877.png",
-    "static/media/alice.jpg": "/scrolla/static/media/alice.387e4c7446a9c0dd8a32.jpg",
-    "static/media/frank.jpg": "/scrolla/static/media/frank.b2114dbe3768c6464b2d.jpg",
-    "static/media/pencil.jpg": "/scrolla/static/media/pencil.5a90353d44f81e48aa3a.jpg",
-    "static/media/Scrolla.png": "/scrolla/static/media/Scrolla.5c34db335cf426309511.png",
-    "static/media/fables.jpg": "/scrolla/static/media/fables.38401f9f2d3bfb6fa19d.jpg",
-    "index.html": "/scrolla/index.html",
-    "main.9ce91989.css.map": "/scrolla/static/css/main.9ce91989.css.map",
-    "main.ed4d7a86.js.map": "/scrolla/static/js/main.ed4d7a86.js.map",
-    "453.a78f16ef.chunk.js.map": "/scrolla/static/js/453.a78f16ef.chunk.js.map"
+    "main.css": "/static/css/main.9ce91989.css",
+    "main.js": "/static/js/main.c35c76bc.js",
+    "static/js/453.a78f16ef.chunk.js": "/static/js/453.a78f16ef.chunk.js",
+    "static/media/bgscrolla.png": "/static/media/bgscrolla.7f01812d672893427877.png",
+    "static/media/alice.jpg": "/static/media/alice.387e4c7446a9c0dd8a32.jpg",
+    "static/media/frank.jpg": "/static/media/frank.b2114dbe3768c6464b2d.jpg",
+    "static/media/pencil.jpg": "/static/media/pencil.5a90353d44f81e48aa3a.jpg",
+    "static/media/Scrolla.png": "/static/media/Scrolla.5c34db335cf426309511.png",
+    "static/media/fables.jpg": "/static/media/fables.38401f9f2d3bfb6fa19d.jpg",
+    "index.html": "/index.html",
+    "main.9ce91989.css.map": "/static/css/main.9ce91989.css.map",
+    "main.c35c76bc.js.map": "/static/js/main.c35c76bc.js.map",
+    "453.a78f16ef.chunk.js.map": "/static/js/453.a78f16ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ce91989.css",
-    "static/js/main.ed4d7a86.js"
+    "static/js/main.c35c76bc.js"
   ]
 }
