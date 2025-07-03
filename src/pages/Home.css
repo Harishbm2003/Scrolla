@@ -1,0 +1,140 @@
+.home-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.book-item {
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.book-item:hover {
+  transform: scale(1.05);
+}
+
+.book-image {
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+}
+
+.book-title {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Modal styles */
+/* Modal overlay */
+.pdf-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Modal content */
+.pdf-modal {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 550px;
+  width: 100%;
+  height: 90vh;
+  overflow: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* PDF container */
+.pdf-viewer {
+  position: relative;
+  width: 100%;
+}
+
+/* Page scroll area */
+.pdf-scroll {
+  overflow-y: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+/* Spinner */
+.pdf-spinner {
+  position: fixed;
+  top: 50%;
+  left:48%;
+  transform: translate(-50%, -50%);
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #ec652f;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: spin 1s linear infinite;
+  z-index: 1001;
+}
+
+/* Close icon */
+.close-button {
+  position: absolute;
+  top: 12px;
+  right: 18px;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Fixed Controls */
+.pdf-controls-fixed {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  z-index: 1002;
+}
+
+/* Spinner animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

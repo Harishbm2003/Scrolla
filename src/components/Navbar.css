@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Matangi:wght@300..900&display=swap');
+
+.navbar {
+  background-color: #ec652f;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Matangi', sans-serif;
+  border: 3px solid yellow; /* Yellow border */
+  box-shadow: 0 0 10px yellow; /* Yellow glow */
+}
+
+.navbar h2 {
+  margin: 0;
+  color: #333;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.navbar input {
+  padding: 6px 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.logo-img {
+  height: 130px;
+  width: auto;
+  object-fit: contain;
+  margin: 0 8px;
+  animation: logoPulse 3s ease-in-out infinite;
+}
+
+/* Animation for logo */
+@keyframes logoPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
