@@ -10,8 +10,8 @@ const App = () => {
     <Router>
       <Navbar searchTerm={searchTerm} onSearch={setSearchTerm} />
       <Routes>
-        <Route path="/" element={<Home searchTerm={searchTerm} />} />
-        {/* <Route path="/scrolla" element={<Home searchTerm={searchTerm} />} /> */}
+        {/* <Route path="/" element={<Home searchTerm={searchTerm} />} /> */}
+        <Route path="/scrolla" element={<Home searchTerm={searchTerm} />} />
       </Routes>
     </Router>
   );
